@@ -1,7 +1,6 @@
-## A simple supervised, feed-forward, back-propagation network with sigmoid activation
-function for the problem of optical character recognition for three digits 0,1 and 3.
+## A simple supervised, feed-forward, back-propagation network with sigmoid activation function for the problem of optical character recognition for three digits 0,1 and 3.
 
-##The code is from scratch and does not use any standard library.
+### The code is from scratch and does not use any standard library.
 
 - Data:  optdigits data set that comes from the UCI Machine Learning Repository.
 
@@ -13,7 +12,7 @@ units and two output units.
 - USAGE : python3.5 nn-test.py 
 Files needed : optdigits-orig.cv, optdigits-orig.tra
 
-- Analysis : 
+#### Analysis : 
 With increase in number of layers, there was no significant improvement in acccuracy 
 
 FOR n= 20
@@ -44,12 +43,16 @@ Weights of final layer :
 
 FOR n=2 
 Correct Answers : 66
+
+Weights of final layer :
 [[-2.59448304 -2.78349909]
  [-0.76314892 -0.76963078]]
 
 
 FOR n=8
 Correct Answers:90
+
+Weights of final layer :
 [[-1.50973236 -1.20175838]
  [-0.33395132 -0.39843667]
  [-0.3057592  -0.49541508]
