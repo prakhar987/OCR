@@ -3,7 +3,7 @@ function for the problem of optical character recognition for three digits 0,1 a
 
 The code is from scratch and does not use any standard library.
 
---Data:  optdigits data set that comes from the UCI Machine Learning Repository.
+######Data:  optdigits data set that comes from the UCI Machine Learning Repository.
 
 --Preporcessing: Digitized and down-sampled images (to 8x8 or so).
 
